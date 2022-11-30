@@ -3,5 +3,5 @@ from . import views
 
 urlpatterns = [
     path('', views.music_library),
-    #path('<int:pk>/', views.),
+    path('<int:pk>/', views.music_details),
 ]
